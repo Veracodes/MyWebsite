@@ -60,7 +60,7 @@ ul li a:hover {
 margin: auto;
 width: 100%;
 /* background-color: #fae0ed; */
-padding: 70px;
+padding: 145px 70px 70px 70px;
 display: flex; 
 /* align-items:center; */
 background-image: url(../Images/pink-1311251_1920.jpg);
@@ -114,16 +114,26 @@ border-radius: 20%;
     box-sizing: border-box;
     display: inline-block;
     width: 90%;
+    padding: 30px;
+    border: 2px solid rgb(211, 208, 208);
+    border-radius: 10%;
+    background-color: rgb(248, 247, 247);
     } 
 
  .box3 {
     box-sizing: border-box;
     display: inline-block;
     width: 90%;
+    padding: 30px;
+    border: 2px solid rgb(211, 208, 208);
+    border-radius: 10%;
+    background-color: rgb(248, 247, 247);
     }
 
 #portfolio h3 {
     text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 iframe {
@@ -133,6 +143,12 @@ iframe {
 #portfolio button {
     background-color: #3a0957;
     color: rgb(245, 241, 241);
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#portfolio p {
+    padding-bottom: 20px;
 }
 
 /* CONTACT ME */
