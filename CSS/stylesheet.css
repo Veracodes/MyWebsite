@@ -12,6 +12,12 @@ Color 4 (dark purple/burgundy)- #442839
     margin: auto;
 }
 
+/*  h tags */
+
+h1 {
+    font-family: 'Gochi Hand', cursive;
+}
+
 /* HEADER */
 
 header {
@@ -29,11 +35,13 @@ ul li{
     font-size: 30px;
     /* color: rgb(245, 241, 241); */
     padding-right: 12px;
+    font-family: 'Gochi Hand', cursive;
     
 }
 nav {
     background-color: #3a0957;
     padding: 20px; 
+    position: fixed;
 }
 
 ul li a {
