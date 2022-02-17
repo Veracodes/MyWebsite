@@ -160,3 +160,10 @@ footer {
     text-align: center;
 }
 
+footer div {
+    background-color: #3a0957;
+    color: rgb(245, 241, 241);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
