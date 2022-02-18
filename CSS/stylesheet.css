@@ -156,8 +156,10 @@ iframe {
 
 footer {
     margin: auto;
-    display: inline;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    
 }
 
 footer div {
@@ -167,3 +169,8 @@ footer div {
     padding-bottom: 20px;
 }
 
+.footer-icons {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
