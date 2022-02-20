@@ -153,7 +153,8 @@ iframe {
 }
 
 #contact h1 {
-    font-size: 50px;
+    font-size: 60px;
+    color: rgb(63, 47, 63);
 }
 
 .contact-form {
@@ -162,11 +163,13 @@ iframe {
 
 form {
     border-radius: 20px;
+    color: rgb(63, 47, 63);
 }
 
-/* form .form-label {
-    margin-bottom: 30px;
-} */
+.form-input {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
 
 .contact-form button {
     background-color: #3a0957;
