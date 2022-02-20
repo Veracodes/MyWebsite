@@ -152,6 +152,40 @@ iframe {
     background-color: pink;
 }
 
+#contact h1 {
+    font-size: 50px;
+}
+
+.contact-form {
+    padding: 20px 70px 20px 70px;
+}
+
+form {
+    border-radius: 20px;
+}
+
+/* form .form-label {
+    margin-bottom: 30px;
+} */
+
+.contact-form button {
+    background-color: #3a0957;
+    color: rgb(245, 241, 241);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    text-align: center;
+    width: 35%;
+    border-radius: 5%;
+    font-size: 30px;
+}
+
+.form-para {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 /* FOOTER */
 
 footer {
