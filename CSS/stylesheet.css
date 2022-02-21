@@ -95,10 +95,6 @@ width: 65%;
     gap: 24px;
 }
 
-/* .container2 {
-border-radius: 20%;
-} */
-
 .box2 {
     box-sizing: border-box;
     display: inline-block;
@@ -119,7 +115,7 @@ border-radius: 20%;
     background-color: rgb(255, 255, 255);
     }
 
-#portfolio h2 {
+.portfolio-h {
     text-align: center;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -142,12 +138,16 @@ iframe {
     font-size: 20px;
 }
 
+.portfolio-button {
+    text-align: center;
+}
+
 #portfolio button:hover {
     color: rgb(236, 174, 184);
     transition: 0.2s;
 }
 
-#portfolio p {
+.portfolio-p {
     padding-bottom: 20px;
 }
 
