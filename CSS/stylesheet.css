@@ -142,6 +142,11 @@ iframe {
     font-size: 20px;
 }
 
+#portfolio button:hover {
+    color: rgb(236, 174, 184);
+    transition: 0.2s;
+}
+
 #portfolio p {
     padding-bottom: 20px;
 }
@@ -182,6 +187,11 @@ form {
     width: 35%;
     border-radius: 5%;
     font-size: 30px;
+}
+
+.contact-form button:hover {
+    color: rgb(236, 174, 184);
+    transition: 0.2s;
 }
 
 .form-para {
