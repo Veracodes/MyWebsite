@@ -105,6 +105,8 @@ width: 65%;
     border-radius: 10%;
     background-color: rgb(255, 255, 255);
     overflow: hidden;
+    margin-top: 60px;
+    margin-bottom: 30px;
     } 
 
  .box3 {
@@ -116,6 +118,8 @@ width: 65%;
     border-radius: 10%;
     background-color: rgb(255, 255, 255);
     overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 60px;
     }
 
 .portfolio-h {
