@@ -128,10 +128,14 @@ width: 65%;
     padding-bottom: 12px;
 }
 
-.portfolio-iframe iframe{
-    border: 1px solid;
+.portfolioCardImage{
+    object-fit: cover;
     width: 100%;
     height: 350px;    
+}
+
+.portfolioCardImage firstPimage{
+background-color: palevioletred;
 }
 
 #portfolio button {
