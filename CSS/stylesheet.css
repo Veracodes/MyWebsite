@@ -101,26 +101,36 @@ width: 65%;
     display: inline-block;
     width: 90%;
     /* padding: 30px; */
-    border: 2px solid rgb(211, 208, 208);
+    border: 2px solid rgb(241, 238, 238);
     border-radius: 10%;
     background-color: rgb(255, 255, 255);
     overflow: hidden;
     margin-top: 60px;
     margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     } 
 
- .box3 {
+.box2:hover {
+    transform: scale(1.1);
+}    
+
+.box3 {
     box-sizing: border-box;
     display: inline-block;
     width: 90%;
     /* padding: 30px; */
-    border: 2px solid rgb(211, 208, 208);
+    border: 2px solid rgb(241, 238, 238);
     border-radius: 10%;
     background-color: rgb(255, 255, 255);
     overflow: hidden;
     margin-top: 30px;
     margin-bottom: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
+
+.box3:hover {
+        transform: scale(1.1);
+    }     
 
 .portfolio-h {
     text-align: center;
