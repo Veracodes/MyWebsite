@@ -10,14 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Open+Sans:wght@500&display=swap"
         rel="stylesheet">
-        <!-- Latest compiled and minified CSS -->
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" > -->
-        <!-- Optional theme -->
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" > -->
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+        
         <link rel="stylesheet" href="form.css" >
-        <script src="form.js"></script>
     </head>
     <body >
         <div class="container">
@@ -36,19 +32,25 @@
                                             usually answer within 48 hours.</p>
                                     </div>
                                     <div class="form-group">
-                                        <label><i class="fa fa-user" aria-hidden="true"></i> Name:</label> <br>
+                                        <label>
+                                            <h3> Name:</h3>
+                                        </label> 
                                         <input type="text" name="name" class="form-control" placeholder="Enter Name">
                                     </div>
                                     <div class="form-group">
-                                        <label><i class="fa fa-envelope" aria-hidden="true"></i> Email:</label> <br>
+                                        <label>
+                                            <h3>  Email:</h3>
+                                        </label>
                                         <input type="email" name="email" class="form-control" placeholder="Enter Email">
                                     </div>
                                     <div class="form-group">
-                                        <label><i class="fa fa-comment" aria-hidden="true"></i> Enter your message below:</label> <br>
-                                        <textarea rows="3" name="message" class="form-control" placeholder="Type Your Message"></textarea>
+                                        <label>
+                                            <h3>Enter your message below:</h3>  
+                                            </label> 
+                                        <textarea rows="6" name="message" class="form-control" placeholder="Type Your Message"></textarea>
                                     </div>
                                     <div class="form-group">
-                                        <button class="btn">Send &rarr;</button>
+                                        <button class="btn">Send</button>
                                     </div>
                                 </form>
                                 <div id="error_message" style="width:100%; height:100%; display:none; ">
@@ -67,5 +69,6 @@
             </div>
             <!-- Form Ended -->
         </div>
+        <script src="form.js"></script>
     </body>
 </html>
