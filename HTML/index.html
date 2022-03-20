@@ -14,6 +14,7 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 
 </head>
@@ -135,9 +136,17 @@
 
         </section>
 
+        <!-- Contact form PHP validated -->
+
+        <!-- <section id="form-container">
+
+            <iframe src='../PHP form validation/form1.php' frameborder='0' width='100%' height='100%' scrolling='no'></iframe>
+    
+            </section> -->
+
         <!-- CONTACT FORM -->
 
-        <!-- <section id="contact">
+        <section id="contact">
 
             <div class="contact-form">
 
@@ -145,27 +154,36 @@
                 <p class="form-para">Drop me a message if you would like to work together or have any questions. I
                     usually answer within 48 hours.</p>
 
-                <form action="">
+                <form action="../PHP form validation/form.php" method="post" name="contactForm">
                     <label for="name" class="form-label">
-                        <h3>Enter your name:</h3>
+                        <h3>Enter your name<em>*</em></h3>
                     </label>
-                    <input type="text" class="form-input">
+                    <input type="text" name="userName" class="form-input" required>
                     <label for="email" class="form-label">
-                        <h3>Enter your email:</h3>
+                        <h3>Enter your email<em>*</em></h3>
                     </label>
-                    <input type="email" class="form-input">
+                    <input type="email" name="userEmail" class="form-input" required>
                     <label for="text" class="form-label">
-                        <h3>Enter your message bellow:</h3>
+                        <h3>Enter your message bellow<em>*</em></h3>
                     </label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <textarea name="userMessage" id="" cols="30" rows="10" required></textarea>
 
                     <div>
+                        <div>
+                        <input type="submit" name="send" value="Submit">
+                        </div>
+                         <!-- <div class="success">
+                            <strong>Success</strong>
+                        </div> -->
+                        <!-- <div>
                         <button>Submit</button>
+                    </div> -->
+                    </div> 
                     </div>
                 </form>
             </div>
 
-        </section> -->
+        </section>
     </main>
 
     <!-- FOOTER -->
