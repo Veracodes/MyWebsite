@@ -270,7 +270,7 @@ form textarea {
     margin-bottom: 20px;
 }
 
-/* SUCCESS MESSAGE */
+/* SUCCESS MESSAGE - thank you page */
 
 #thank-you-page {
     height: 100%;
@@ -279,7 +279,7 @@ form textarea {
 }
 
 .thank-you-message {
-    padding: 30px;
+    padding: 40px 30px 30px 30px;
 }
 
 .success-message {
@@ -291,6 +291,23 @@ form textarea {
 .success-message h1{
     font-size: 60px;
     color: rgb(63, 47, 63);
+}
+
+.social-icons a {
+    color: #3a0957;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: rgb(245, 241, 241);
+    transition: 0.2s;
+}
+
+.social-icons {
+    display: flex;
+    width: 150px;
+    float: left;
+    margin-left: 70px;
 }
 
 /* FOOTER */
