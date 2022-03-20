@@ -345,3 +345,28 @@ footer a:hover {
 .footer-credits {
     padding: 20px 20px 25px 50px;
 }
+
+/* ERROR PAGE */
+
+#error-page {
+    height: 100%;
+    width: 100%;
+    background-color: pink;
+}
+
+.error-msg-container {
+    padding: 40px 30px 30px 30px;
+}
+
+.error-message h1{
+    font-size: 60px;
+    color: rgb(63, 47, 63);
+}
+
+.error-message h3 {
+    font-size: 24px;
+}
+
+.error-message a{
+    color: #3a0957;
+}
