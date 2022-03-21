@@ -482,8 +482,14 @@ footer a:hover {
 
 #hamburger-menu a {
   color: rgb(245, 241, 241);
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   text-decoration: none;
+}
+
+#hamburger-menu h1 {
+    color: rgb(245, 241, 241);
+    font-size: 2rem;
+    padding-top: 20px;
 }
 
 #hamburger-menu a:hover {
