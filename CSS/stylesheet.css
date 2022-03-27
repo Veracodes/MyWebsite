@@ -130,7 +130,7 @@ width: 65%;
 }
 
 #abtMe a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: black;
     cursor: pointer;
 }
